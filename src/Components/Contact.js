@@ -2,6 +2,7 @@ import React from "react"
 import "../App.css";
 
 export default function Contact() {
+  document.title="Mayank Manik | Contact";
   return (
     <>
       <section id="header" className="d-flex align-items-center">

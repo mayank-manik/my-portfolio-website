@@ -4,10 +4,17 @@ import "../App.css";
 export default function Card(props) {
     return (
         <>
-            <div className="col-md-3 col-10 mx-auto">
-                <div className="card">
-                    <img src={props.imagesrc} className="card-img-top" alt={props.title} />
-                    <h3 className="mt-5 text-center">{props.title}</h3>
+            <div className="col-md-4 col-10 mx-auto">
+                <div className="cards">
+                    <div className="card">
+                        <img src={props.imagesrc} alt="{props.title}"
+                            className='card_img px-2 py-2' />
+                        <div className="card_info">
+                            <h3 className="card_title px-3 py-2">
+                                {props.title}
+                            </h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

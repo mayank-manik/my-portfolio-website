@@ -3,6 +3,7 @@ import Card from './Card'
 import ProjectData from './ProjectData'
 
 export default function Project() {
+  document.title="Mayank Manik | Project";
   return (
     <>
       <div className="my-5 d-block d-md-none"><h1 className="text-center">Projects</h1></div>

@@ -1,7 +1,8 @@
 import React from 'react'
-import web from "../images/about.svg"
+import web from "../images/my_photo.jpg"
 
 export default function About() {
+  document.title="Mayank Manik | About";
   return (
     <>
       <section id="header" className="d-flex align-items-center">
@@ -20,8 +21,8 @@ export default function About() {
                     </a>
                   </div>
                 </div>
-                <div className="mt-5 mt-lg-0 col-lg-6 order-1 order-lg-2 header-img">
-                  <img src={web} className="img-fluid left-right" alt="homepage" />
+                <div className="mt-5 mt-lg-0 col-lg-6 order-1 order-lg-2 float-end">
+                  <img src={web} className="img-fluid about-img" alt="mayank-manik" />
                 </div>
               </div>
             </div>

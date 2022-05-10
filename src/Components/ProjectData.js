@@ -21,6 +21,10 @@ const ProjectData = [
         title: "Magic Notes",
     },
     {
+        imagesrc: colorguesser,
+        title: "Color Guesser",
+    },
+    {
         imagesrc: typingmaster,
         title: "Typing Master",
     },
@@ -31,10 +35,6 @@ const ProjectData = [
     {
         imagesrc: memeify,
         title: "Memeify",
-    },
-    {
-        imagesrc: colorguesser,
-        title: "Color Guesser",
     },
     {
         imagesrc: news,

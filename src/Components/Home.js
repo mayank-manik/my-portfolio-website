@@ -2,6 +2,7 @@ import React from 'react'
 import web from "../images/home.svg"
 
 export default function Home() {
+  document.title="Mayank Manik | Home";
   return (
     <>
       <section id="header" className="d-flex align-items-center">

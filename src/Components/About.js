@@ -21,7 +21,7 @@ export default function About() {
                     </a>
                   </div>
                 </div>
-                <div className="mt-5 mt-lg-0 col-lg-6 order-1 order-lg-2 float-end">
+                <div className="mt-5 mt-lg-0 col-lg-6 order-1 order-lg-2 d-flex justify-content-center">
                   <img src={web} className="img-fluid about-img" alt="mayank-manik" />
                 </div>
               </div>
